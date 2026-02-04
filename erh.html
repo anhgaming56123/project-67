@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>CLB Guitar - Chuyên Nguyễn Bỉnh Khiêm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="erg.css">
+    <style>
+        a{
+            color: #ffffff;
+        }
+      body {
+        margin: 0;
+        font-family: 'Prompt', sans-serif;
+        color: white;
+        background: #202731;
+        overflow-x: hidden;
+      }
+
+      section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 400px;
+        padding-top: 100px;
+      }
+
+      .blue {
+        background: #cb622d;
+      }
+
+      .red {
+        background: #dd3f31;
+      }
+
+      .pink {
+        background: #ff0066;
+        overflow: hidden;
+      }
+
+      .dark {
+        background: #0f0f10;
+      }
+.curve {
+        position: absolute;
+        height: 250px;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+      }
+
+      .curve::before {
+        content: '';
+        display: block;
+        position: absolute;
+        border-radius: 100% 50%;
+        width: 55%;
+        height: 100%;
+        transform: translate(85%, 60%);
+        background-color: hsl(216, 21%, 16%);
+      }
+
+      .curve::after {
+        content: '';
+        display: block;
+        position: absolute;
+        border-radius: 100% 50%;
+        width: 55%;
+        height: 100%;
+        background-color: #cb622d;
+        transform: translate(-4%, 40%);
+        z-index: -1;
+      }
+       .bubble::after {
+        content: '';
+        border-top-left-radius: 50% 100%;
+        border-top-right-radius: 50% 100%;
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+        width: 100%;
+        background-color: #0f0f10;
+        height: 85%;
+      }
+
+    </style>
+</head>
+<body>
+   
+    <group>
+    <header>
+        <img src="clb/banner.jpg" alt="Banner CLB Guitar" class="banner-img">
+        <div class="slogan">"Nơi tiếng đàn kết nối những trái tim"</div>
+    </header>
+
+    <div class="container">
+        <nav>
+            <h2>HOẠT ĐỘNG</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/share/p/1C5nza3VgJ/" target="_blank"> TUYỂN THÀNH VIÊN-CASTING GEN 11</a></li>
+                <li><a href="https://www.facebook.com/share/p/1BAyXvZY8C/" target="_blank">HOẠT ĐỘNG MỚI NHẤT</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="content-box">
+                <img src="clb/hoạt động.jpg" alt="Hoạt động CLB">
+                <p>Những khoảnh khắc ấn tượng của các thành viên trong các đêm nhạc.</p>
+            </div>
+
+            <div class="content-box">
+                <img src="clb/đẹp trai.jpg" alt="Thành viên CLB">
+                <p>Các buổi tập luyện và biểu diễn thường niên của CLB Guitar NBK.</p>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="links">
+            Liên kết đến các trang khác: 
+            <a href="https://www.facebook.com/guitarNBK" target="_blank">FACEBOOK CLB</a> | 
+            <a href="https://www.facebook.com/nbkqnam" target="_blank">Website nhà trường</a>
+        </div>
+    </footer>
+    </group>
+    <section class="blue">
+      <div class="curve"></div>
+    </section>
+
+    <section></section>
+    <section></section>
+
+    <section class="bubble"></section>
+    <section class="dark"> </section>
+</body>
+</html>
